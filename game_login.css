@@ -1,0 +1,25 @@
+body
+{
+	background: linear-gradient(to right, #2c3e50, #4ca1af);
+}
+
+.login_div1 , .login_div2
+{
+	background: rgba(255, 255, 255, 1);
+	padding: 10px;
+	float: none;
+	border-radius: 15px;
+	color:black;
+}
+
+#addUserButton
+{
+	background: linear-gradient(to right, #fc4a1a, #f7b733);
+    border-color: white;
+}
+
+#login
+{
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.25);
+}

@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Proyecto 90</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="quiz_game_page.css">
+  </head>
+  <body>
+    <br>
+    <div id="name_score">
+    <h4 id="player1_name"></h4> <span id="player1_score"></span>
+    <br>
+    <h4 id="player2_name"></h4> <span id="player2_score"></span>
+    <br>
+    </div>
+    <br>
+    <div class="container">
+        <center>
+            <h2 class="bg-danger" style="color: white;"> ¡Prueba de matemáticas!</h2>
+            <br>
+            <div id="turnos">
+            <h3 id="player_question"></h3>
+            <br>
+            <h3 id="player_answer"></h3>
+            </div>
+            <br>
+            <div id="output" class="col-lg-6">
+            </div>
+            <br>
+            <div id="numbers" class="col-lg-6">
+                <h3>Número 1</h3>
+                <input type="text" id="number1" placeholder="Número 1">
+                <br>
+                <br>
+                <h3>Número 2</h3>
+                <input type="text" id="number2" placeholder="Número 2">
+                <br><br>
+                <button onclick="send();" class="btn btn-warning btn-lg">Enviar</button>
+            </div>
+        </center>
+    </div>
+
+    <script src="quiz_game_page.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

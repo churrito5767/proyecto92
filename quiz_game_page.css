@@ -1,0 +1,56 @@
+body
+{
+    background-color: rgb(46, 46, 46);
+}
+
+#output
+{
+    background: white;
+    border-radius: 10px;
+    border-top: 10px solid #306330;
+    padding: 10px;
+    float: none;
+    text-align: left;
+}
+
+#numbers
+{
+    padding: 10px;
+    border-radius: 10px;
+    border-top: 10px solid rgb(221, 164, 32);
+    background-color: white;
+}
+
+#numbers input
+{
+    width: 95%;
+}
+
+.bg-danger
+{
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#name_score
+{
+    color: black;
+    padding-left: 100px;
+    background-color: white;
+    width: 175px;
+    height: 150px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 10px solid rgb(84, 154, 216);
+}
+
+#turnos
+{
+    color: black;
+    background-color: white;
+    width: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border-top: 10px solid rgb(239, 79, 236);
+}

@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Prueba de matemáticas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="game_login.css">
+  </head>
+  <body>
+    <center>
+        <h1 id="login_h1" style="color:white;">Login</h1>
+        <br>
+        <div id="login">
+        <div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
+            <h3>Jugador 1 Inicia sesión para jugar</h3>
+            <label>Nombre del usuario:</label>
+            <input type="text" id="player1_name_input" class="form-control" placeholder="Nombre del jugador 1">
+            <br>
+        </div>
+        <br>
+        <div class="col-lg-4 col-sm-8 col-xs-11 login_div2">
+            <h3>Jugador 2 Inicia sesión para jugar</h3>
+            <label>Nombre del usuario:</label>
+            <input type="text" id="player2_name_input" class="form-control" placeholder="Nombre del jugador 2">
+            <br>
+        </div>
+        </div>
+        <br>
+        <button id="addUserButton" style="width:30%" class="btn btn-primary" onclick="addUser()">Iniciar sesión</button>
+    </center>
+    <script src="game_login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
